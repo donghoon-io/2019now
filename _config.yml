@@ -1,0 +1,39 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+title:       "변화를 향한 카운트다운 3, 2, 1 NOW!"
+keywords:    "변화를, 향한, 카운트다운, 3, 2, 1, NOW"
+description: "제61대 서울대학교 총학생회 선거본부 NOW"
+source_link: "https://github.com/t413/SinglePaged"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/logo.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#ffffff'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  red:       '#e94627'
+  turquoise: '#0fbfcf'
+
+kramdown:
+  auto_ids:  false
+
